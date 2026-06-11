@@ -1,0 +1,56 @@
+{
+  "name": "@candescent/di-examples",
+  "version": "1.0.0",
+  "description": "TypeScript server SDK for the Candescent Digital Insight API",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    },
+    "./operations": {
+      "types": "./dist/src/operations.d.ts",
+      "import": "./dist/src/operations.js"
+    },
+    "./registry": {
+      "types": "./dist/src/registry.d.ts",
+      "import": "./dist/src/registry.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test --experimental-strip-types",
+    "examples": "node scripts/run-all-typescript-examples.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@cdx-forge/di-typescript-sdk": "1.0.0"
+  },
+  "keywords": [
+    "candescent",
+    "digital-insight",
+    "banking",
+    "sdk",
+    "api-client"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candescent-dev/cdx-typescript-sdk"
+  },
+  "homepage": "https://github.com/candescent-dev/cdx-typescript-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/candescent-dev/cdx-typescript-sdk/issues"
+  },
+  "author": "Candescent",
+  "license": "MIT"
+}

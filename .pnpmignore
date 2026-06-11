@@ -1,0 +1,19 @@
+# Generated code — not needed by consumers (only dist/ ships)
+/generated/
+
+# TypeScript config — consumers use their own tsconfig
+tsconfig.json
+tsconfig*.json
+
+# Development and build tooling
+node_modules/
+*.log
+*.tgz
+
+# Test files
+**/*.test.ts
+**/*.spec.ts
+
+# Local environment
+.env
+.env.*

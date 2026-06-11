@@ -1,0 +1,3 @@
+; Example pnpm config for this repo (NO secrets).
+registry=https://registry.npmjs.org/
+@cdx-forge:registry=https://registry.npmjs.org/

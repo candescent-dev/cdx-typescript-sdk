@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.tgz
+dist/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
